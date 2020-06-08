@@ -1,6 +1,6 @@
 # Hackintosh <br>
-* [English](https://gitee.com/xin826/Hackintosh/blob/master/README_en.md)
-* [简体中文](https://gitee.com/xin826/Hackintosh/blob/master/README_cn.md)
+* [English](https://github.com/Xin9912/Hackintosh/blob/master/README.md)
+* [简体中文](https://github.com/Xin9912/Hackintosh/blob/master/README_cn.md)
 &emsp;
 ## 神舟战神Z7M-KP7GT的黑苹果EFI文件
 * 这是神舟战神Z7M-KP7GT的黑苹果安装文件。现在能够在macOS10.15.5(Catalina)下使用, 如果你有和我相近的配置你可以进行尝试, 配置内容如下:
