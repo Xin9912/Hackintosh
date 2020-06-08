@@ -1,6 +1,6 @@
 # Hackintosh
-* [English](https://gitee.com/xin826/Hackintosh/blob/master/README_en.md)
-* [简体中文](https://github.com/Xin9912/Hackintosh/blob/master/README.md
+* [English](https://github.com/Xin9912/Hackintosh/blob/master/README.md)
+* [简体中文](https://github.com/Xin9912/Hackintosh/blob/master/README.md)
 &emsp;
 ## Descriptions <br>
 * It's EFI files to hackintosh for laptop Hasee Z7M-KP7GT. It may work well util macOS(Catalina)10.15.5. And if you have similar configurations to mine, you could try it.Well, here is my laptop config: <br>
