@@ -16,7 +16,7 @@
 | wireless card | Brcm943224 |
 
 ## What's Wrong <br>
-* Well, I got a perfect EFI with bootloaded Opencore 0.5.8 Release(enable DGPU,so I disable dgpu-off.aml), and I my laptop's **Graphics/Display** have something suprising, I will show you as follow. <br>
+* Well, I got a perfect EFI with bootloaded Opencore 0.5.8 Release(enable DGPU,so I disable dgpu-off.aml), and I my laptop's **Graphics/Display** have something suprising, I will show you the photo as follow.So, could you driver it on my laptop? <br>
 ![Wrong Graphics/Displays](https://images.gitee.com/uploads/images/2020/0608/141442_7dee4853_5740238.png "屏幕截图.png")
 
 ## Attention <br>
