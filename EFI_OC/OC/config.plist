@@ -8,11 +8,11 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-dGpuOff.aml</string>
+				<string>SSDT-dGPU-Off.aml</string>
 				<key>Path</key>
-				<string>SSDT-dGpuOff.aml</string>
+				<string>SSDT-dGPU-Off.aml</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -235,6 +235,8 @@
 				<data>G1kAAA==</data>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
+				<key>disable-external-gpu</key>
+				<data>AQAAAA==</data>
 				<key>enable-hdmi20</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con2-enable</key>
@@ -249,8 +251,10 @@
 				<data>AgAAAA==</data>
 				<key>framebuffer-stolenmem</key>
 				<data>AAAwAQ==</data>
+				<key>framebuffer-unifiedmem</key>
+				<data>AAAAgA==</data>
 				<key>hda-gfx</key>
-				<string>onboard-1</string>
+				<string>onboard-2</string>
 				<key>model</key>
 				<string>Intel HD Graphics 630</string>
 			</dict>
@@ -389,22 +393,6 @@
 				<string>Contents/MacOS/NoTouchID</string>
 				<key>BundlePath</key>
 				<string>NoTouchID.kext</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-				<key>Enabled</key>
-				<true/>
-				<key>MinKernel</key>
-				<string></string>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/RealtekRTL8111</string>
-				<key>BundlePath</key>
-				<string>RealtekRTL8111.kext</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -737,17 +725,17 @@
 			<key>AdviseWindows</key>
 			<true/>
 			<key>MLB</key>
-			<string></string>
+			<string>C02932701QX0000AD</string>
 			<key>ROM</key>
-			<data></data>
+			<data>yXP+JJjn</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
 			<string>MacBookPro14,3</string>
 			<key>SystemSerialNumber</key>
-			<string></string>
+			<string>C02XG0YFHTD5</string>
 			<key>SystemUUID</key>
-			<string></string>
+			<string>23836BA4-8110-4697-A40A-4A9B904CD2C7</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
