@@ -11,7 +11,7 @@
 | Motherboard|HM175 series |
 | CPU | Intel i7-7700HQ |
 | IGPU | UHD630 |
-| DGPU | Nvidia GTX 1050ti|
+| DGPU | Nvidia GTX 1050ti(disabled)|
 | Audio | ALC269VC |
 | wireless card | Brcm943224 |
 
@@ -27,4 +27,4 @@
 | Bootloader | macOS version |
 | ---- | ---- |
 | Opencore 0.5.8 Realease | macOS Catalina 10.15.5 |
-|Clover 5118 (Stop Updating) | macOS Catalina 10.15.5 |
+|Clover 5112 (Stop Updating) | macOS Catalina 10.15.5 |
