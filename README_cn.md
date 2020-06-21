@@ -11,7 +11,7 @@
 | 主板 |HM175 series |
 | CPU | Intel i7-7700HQ |
 | 集显 | UHD630 |
-| 独显 | Nvidia GTX 1050ti |
+| 独显 | Nvidia GTX 1050ti(已屏蔽) |
 | 声卡 | ALC269VC |
 | 无线网卡 | Brcm943224 |
 
@@ -27,5 +27,5 @@
 | 引导工具 | 支持的macOS版本 |
 | ---- | ---- |
 | Opencore 0.5.8 Realease | macOS Catalina 10.15.5 |
-|Clover 5118 (停止更新) | macOS Catalina 10.15.5 |
+|Clover 5112 (停止更新) | macOS Catalina 10.15.5 |
 
