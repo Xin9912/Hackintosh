@@ -20,11 +20,11 @@
 ![Wrong Graphics/Displays](https://images.gitee.com/uploads/images/2020/0608/141442_7dee4853_5740238.png "屏幕截图.png")
 
 ## Attention <br>
-* I have configured OC and it works well on my laptop. I think I will use opencore to boot system rather than Clover. <br>
+* I have configured OC and it works well on my laptop.Dsiable PS2 kexts in config and place them in S/L/E, the laptop will start faster than with them. So I made a config_ps2_disable to disable these kexts in EFI. I think I will use opencore to boot system rather than Clover. <br>
 * Clover works well on my laptop, but the keyboard blacklight setting can't work if shutdown your laptop and then boot. <br>
 * **Note**:I removed SMBIOS settings in config.plist. So you should change or set the SMBIOS settings in the config.plist which you choose. <br>
 
 | Bootloader | macOS version |
 | ---- | ---- |
-| Opencore 0.5.8 Realease | macOS Catalina 10.15.5 |
-|Clover 5118 (Stop Updating) | macOS Catalina 10.15.5 |
+| Opencore 0.5.9 Realease | macOS Catalina 10.15.5 |
+|Clover 5112 (Stop Updating) | macOS Catalina 10.15.5 |
