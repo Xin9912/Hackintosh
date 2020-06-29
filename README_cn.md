@@ -15,10 +15,6 @@
 | 声卡 | ALC269VC |
 | 无线网卡 | Brcm943224 |
 
-## 问题
-* 我使用Opencore0.5.8 Realease引导macOS发现在我的电脑硬件描述中的 **显卡与显示**上出现了神奇的事情，就像下面的图片一样，我想要各位的帮助。<br>
-![Wrong Graphics/Displays](https://images.gitee.com/uploads/images/2020/0608/141442_7dee4853_5740238.png "屏幕截图.png")
-
 ## 注意
 * 我现在已经配置好了Opencore 0.5.8Realease，在我的笔记本上运行很好。我想我以后应该会使用Opencore而不再是Clover了。<br>
 * Clover现在可以完美引导macOS10.15.4, 不过电脑硬重启后键盘背光不会被保存下来，可以添加一下补丁修复即可。
