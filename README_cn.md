@@ -22,6 +22,6 @@
 
 | 引导工具 | 支持的macOS版本 |
 | ---- | ---- |
-| Opencore 0.5.8 Realease | macOS Catalina 10.15.5 |
-|Clover 5118 (停止更新) | macOS Catalina 10.15.5 |
+| Opencore 0.5.9 Realease | macOS Catalina 10.15.5 |
+|Clover 5112 (停止更新) | macOS Catalina 10.15.5 |
 
