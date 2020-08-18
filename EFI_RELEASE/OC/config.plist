@@ -48,7 +48,19 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+<<<<<<< HEAD:EFI_RELEASE/OC/config.plist
 				<string>SSDT-PLUG.aml</string>
+=======
+				<string>SSDT-NDGP_OFF.aml</string>
+				<key>Path</key>
+				<string>SSDT-NDGP_OFF.aml</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-PLUG-_PR.CPU0.aml</string>
+>>>>>>> temp:EFI_OC/OC/config.plist
 				<key>Path</key>
 				<string>SSDT-PLUG.aml</string>
 				<key>Enabled</key>
@@ -72,9 +84,15 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+<<<<<<< HEAD:EFI_RELEASE/OC/config.plist
 				<string>SSDT-SBUS.aml</string>
 				<key>Path</key>
 				<string>SSDT-SBUS.aml</string>
+=======
+				<string>SSDT-PTSWAK.aml</string>
+				<key>Path</key>
+				<string>SSDT-PTSWAK.aml</string>
+>>>>>>> temp:EFI_OC/OC/config.plist
 				<key>Enabled</key>
 				<true/>
 			</dict>
@@ -153,6 +171,58 @@
 				<data>AAAAAA==</data>
 				<key>Replace</key>
 				<data>IgAAeQA=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data></data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>_PTS to ZPTS(1,N)</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>X1BUUwE=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>WlBUUwE=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data></data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>_WAK to ZWAK(1,N)</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>X1dBSwE=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>WldBSwE=</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -511,6 +581,25 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>ExecutablePath</key>
+<<<<<<< HEAD:EFI_RELEASE/OC/config.plist
+=======
+				<string>Contents/MacOS/RealtekRTL8111</string>
+				<key>BundlePath</key>
+				<string>RealtekRTL8111.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+>>>>>>> temp:EFI_OC/OC/config.plist
 				<string>Contents/MacOS/SMCProcessor</string>
 				<key>BundlePath</key>
 				<string>SMCProcessor.kext</string>
@@ -527,6 +616,25 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>ExecutablePath</key>
+<<<<<<< HEAD:EFI_RELEASE/OC/config.plist
+=======
+				<string>Contents/MacOS/SMCSuperIO</string>
+				<key>BundlePath</key>
+				<string>SMCSuperIO.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+>>>>>>> temp:EFI_OC/OC/config.plist
 				<string></string>
 				<key>BundlePath</key>
 				<string>USBPorts.kext</string>
@@ -626,6 +734,54 @@
 				<string>Contents/MacOS/WhateverGreen</string>
 				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/VoodooPS2Controller</string>
+				<key>BundlePath</key>
+				<string>VoodooPS2Controller.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/VoodooPS2Keyboard</string>
+				<key>BundlePath</key>
+				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/VoodooPS2Trackpad</string>
+				<key>BundlePath</key>
+				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext</string>
 			</dict>
 		</array>
 		<key>Block</key>
@@ -888,15 +1044,22 @@
 			<key>AppleDebug</key>
 			<false/>
 			<key>ApplePanic</key>
+<<<<<<< HEAD:EFI_RELEASE/OC/config.plist
 			<true/>
+=======
+			<false/>
+>>>>>>> temp:EFI_OC/OC/config.plist
 			<key>DisableWatchDog</key>
-			<true/>
+			<false/>
 			<key>DisplayDelay</key>
 			<integer>0</integer>
 			<key>DisplayLevel</key>
 			<integer>2147483650</integer>
+<<<<<<< HEAD:EFI_RELEASE/OC/config.plist
 			<key>SerialInit</key>
 			<false/>
+=======
+>>>>>>> temp:EFI_OC/OC/config.plist
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
@@ -912,7 +1075,9 @@
 			<key>AllowSetDefault</key>
 			<true/>
 			<key>AuthRestart</key>
-			<false/>
+			<true/>
+			<key>BlacklistAppleUpdate</key>
+			<true/>
 			<key>BootProtect</key>
 			<string>Bootstrap</string>
 			<key>ExposeSensitiveData</key>
@@ -928,15 +1093,19 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>CleanNvram.efi</string>
+				<string>OpenShell.efi</string>
 				<key>Name</key>
-				<string>CleanNvram.efi</string>
+				<string>OpenShell.efi</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Arguments</key>
 				<string></string>
 				<key>Path</key>
+<<<<<<< HEAD:EFI_RELEASE/OC/config.plist
 				<string>CleanNvram.efi</string>
+=======
+				<string>OpenShell.efi</string>
+>>>>>>> temp:EFI_OC/OC/config.plist
 				<key>Auxiliary</key>
 				<false/>
 			</dict>
@@ -963,6 +1132,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
+<<<<<<< HEAD:EFI_RELEASE/OC/config.plist
 				<string>keepsyms=1 debug=0x10 -wegnoegpu</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
@@ -970,6 +1140,13 @@
 				<data>5wsAAA==</data>
 				<key>prev-lang:kbd</key>
 				<data></data>
+=======
+				<string>keepsyms=1 -wegnoegpu debug=0x100</string>
+				<key>csr-active-config</key>
+				<data>AAAAAA==</data>
+				<key>prev-lang:kbd</key>
+				<data>ZW4tVVM6MA==</data>
+>>>>>>> temp:EFI_OC/OC/config.plist
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -978,10 +1155,13 @@
 			<array>
 				<string>UIScale</string>
 				<string>DefaultBackgroundColor</string>
+<<<<<<< HEAD:EFI_RELEASE/OC/config.plist
 			</array>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<array>
 				<string>rtc-blacklist</string>
+=======
+>>>>>>> temp:EFI_OC/OC/config.plist
 			</array>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<array>
@@ -1008,7 +1188,6 @@
 				<string>bluetoothInternalControllerInfo</string>
 				<string>flagstate</string>
 				<string>fmm-computer-name</string>
-				<string>nvda_drv</string>
 				<string>prev-lang:kbd</string>
 			</array>
 			<key>8BE4DF61-93CA-11D2-AA0D-00E098032B8C</key>
@@ -1114,7 +1293,11 @@
 			<key>PointerSupportMode</key>
 			<string>ASUS</string>
 			<key>TimerResolution</key>
+<<<<<<< HEAD:EFI_RELEASE/OC/config.plist
 			<integer>50000</integer>
+=======
+			<integer>60000</integer>
+>>>>>>> temp:EFI_OC/OC/config.plist
 		</dict>
 		<key>Output</key>
 		<dict>
@@ -1168,7 +1351,7 @@
 			<key>DeviceProperties</key>
 			<false/>
 			<key>FirmwareVolume</key>
-			<false/>
+			<true/>
 			<key>HashServices</key>
 			<false/>
 			<key>OSInfo</key>
