@@ -17,8 +17,8 @@
 | DGPU | Nvidia GTX 1050ti(disabled)|
 | Audio | ALC269VC |
 | wireless card | Brcm943224 | 
-</center>
-  <br>
+</center> <br>
+
 * **Files:** The project provide OC_RELEASE EFI(based on release ocpkg) and OC_DEBUG(based on debug ockg). If you use your laptop in daily work, you'd better choose the release version, if not you could use one at will. And Clover is placed in the git project-release, the version is 5112(work well at macOS 10.15.5, may not work well at 10.15.6 and newer macOS version).  <br>
 
 ## What's Wrong <br>
