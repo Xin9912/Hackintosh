@@ -5,7 +5,7 @@
 ## Descriptions <br>
 * **Project:** It's EFI files to hackintosh for laptop Hasee Z7M-KP7GT. It may work well util macOS(Catalina)10.15.6. And if you have similar configurations to mine, you could try. And here is my laptop config: <br>
 
-| Devices | Model |
+| Device | Model |
 | ---- | ---- |
 | Laptop model| Hasee Z7M-KP7GT |
 | Motherboard| Clevo N850HJ |
@@ -22,10 +22,10 @@
 * **2.** The keyboard blacklight setting can't work if shutdown your laptop and then boot. And I don't know how to sovle this problem. <br>
 
 ## What's New <br>
-* Added CPU mangerment(CPUFriend and CPUFriendDataProvider kexts)
-* Replaced themes(similar to original mac boot theme)
-* Replaced PS2 device drivers(acidanthera version rather than rehubman)
-* Added Broadcom wireless card PCI path in config(you should add this if it not work well)
+* Added CPU mangerment (CPUFriend and CPUFriendDataProvider kexts)
+* Replaced themes (similar to original mac boot theme)
+* Replaced PS2 device drivers (acidanthera version)
+* Added Broadcom wireless card PCI path in config (you should add this if it not work well)
 * Shielded SD Card PCI path to save power.
 
 ## Attention <br>
