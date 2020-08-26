@@ -34,3 +34,16 @@
 
 ## Attention <br>
 * **Note**:I removed SMBIOS settings in config.plist. So you should change them to your own SMBIOS settings in EFI/OC/config.plist-PlatformInfo-Generic. <br>
+
+## Kexts version <br>
+
+| Name | Version |
+| :----: | :----: |
+| Lilu.kext| 1.4.6-RELEASE |
+| VirtualSMC.kext| 1.1.5-RELEASE |
+| WhateverGreen.kext | 1.4.1-RELEASE |
+| AppleALC.kext | 1.5.1-RELEASE |
+| AirportBrcmFixup.kext | 2.0.8-RELEASE |
+| VoodooPS2Controller.kext | 2.1.6-RELEASE |
+| NoTouchID.kext | 1.0.3-RELEASE |
+| CPUFriend.kext | 1.2.1-RELEASE | <br>
