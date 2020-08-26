@@ -19,7 +19,7 @@
 | wireless card | Brcm943224 | 
 </center> <br>
 
-* **Files:** The project provide OC_RELEASE EFI(based on release ocpkg) and OC_DEBUG(based on debug ockg). If you use your laptop in daily work, you'd better choose the release version, if not you could use one at will. And Clover is placed in the git project-release, the version is 5112(work well at macOS 10.15.5, may not work well at 10.15.6 and newer macOS version).  <br>
+* **Files:** The project provide OC_RELEASE EFI(based on release ocpkg) and OC_DEBUG(based on debug ockg). If you use your laptop in daily work, you'd better choose the release version, if not you could use one at will. And Clover is placed in the git repositories-release, the version is 5112(work well at macOS 10.15.5, may not work well at 10.15.6 and newer macOS version).  <br>
 
 ## What's Wrong <br>
 * **1.** The laptop OC version is newer than OC0.5.8 may wake later than using OC0.5.8 if you want to use after it sleeped. I have try some ways to solve the prolem, but it have no use at all. And you can try your way.  <br>
