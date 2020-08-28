@@ -27,7 +27,7 @@
 
 ## What's New <br>
 * Added CPU power mangerment (CPUFriend and CPUFriendDataProvider kexts)
-* Replaced themes (similar to original mac boot theme)
+* Replaced boot theme (similar to original mac boot theme)
 * Replaced PS2 device drivers (acidanthera version)
 * Added Broadcom wireless card PCI path in config (you should add this if it not work well)
 * Shielded SD Card PCI path to save power.
