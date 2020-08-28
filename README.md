@@ -26,7 +26,7 @@
 * **2.** The keyboard blacklight setting can't work if shutdown your laptop and then boot. And I don't know how to sovle this problem. <br>
 
 ## What's New <br>
-* Added CPU mangerment (CPUFriend and CPUFriendDataProvider kexts)
+* Added CPU power mangerment (CPUFriend and CPUFriendDataProvider kexts)
 * Replaced themes (similar to original mac boot theme)
 * Replaced PS2 device drivers (acidanthera version)
 * Added Broadcom wireless card PCI path in config (you should add this if it not work well)
