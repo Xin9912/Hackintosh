@@ -5,8 +5,6 @@
 
 ## Descriptions <br>
 * **Project:** It's EFI files to hackintosh for laptop Hasee Z7M-KP7GT. It may work well util macOS(Catalina)10.15.6. And if you have similar configurations to mine, you could try. And here is my laptop config: <br>
-
-<center> 
   
 | Device | Model |
 | ---- | ---- |
@@ -16,8 +14,7 @@
 | IGPU | UHD630 |
 | DGPU | Nvidia GTX 1050ti(disabled)|
 | Audio | ALC269VC |
-| wireless card | Brcm943224 | 
-</center> <br>
+| wireless card | Brcm943224 | <br>
 
 * **Files:** The project provide OC_RELEASE EFI(based on release ocpkg) and OC_DEBUG(based on debug ockg). If you use your laptop in daily work, you'd better choose the release version, if not you could use one at will. And Clover is placed in the git repositories-release, the version is 5112(work well at macOS 10.15.5, may not work well at 10.15.6 and newer macOS version).  <br>
 
@@ -30,10 +27,11 @@
 * Replaced boot theme (similar to original mac boot theme)
 * Replaced PS2 device drivers (acidanthera version)
 * Added Broadcom wireless card PCI path in config (you should add this if it not work well)
-* Shielded SD Card PCI path to save power.
+* Shielded SD Card PCI path to save power.(maybe useful and maybe not) 
 
 ## Attention <br>
-* **Note**:I removed SMBIOS settings in config.plist. So you should change them to your own SMBIOS settings in EFI/OC/config.plist-PlatformInfo-Generic. <br>
+* **1.** I removed SMBIOS settings in config.plist. So you should change them to your own SMBIOS settings in EFI/OC/config.plist-PlatformInfo-Generic. <br>
+* **2.** I have tested all EFIs in my repositorie, and they work well. If your laptop work badly or have caused some issues, I won't be responsible for them(I can't afford). <br>
 
 ## Kexts version <br>
 
