@@ -19,7 +19,7 @@
 * **Files:** The project provide OC_RELEASE EFI(based on release ocpkg) and OC_DEBUG(based on debug ockg). If you use your laptop in daily work, you'd better choose the release version, if not you could use one at will. And Clover is placed in the git repositories-release, the version is 5112(work well at macOS 10.15.5, may not work well at 10.15.6 and newer macOS version).  <br>
 
 ## What's Wrong <br>
-* **1.** The laptop OC version is newer than OC0.5.8 may wake later than using OC0.5.8 if you want to use after it sleeped. I have try some ways to solve the prolem, but it have no use at all. And you can try your way.  <br>
+* ~~**1.** The laptop OC version is newer than OC0.5.8 may wake later than using OC0.5.8 if you want to use after it sleeped. I have try some ways to solve the prolem, but it have no use at all. And you can try your way.~~  <br>
 * **2.** The keyboard blacklight setting can't work if shutdown your laptop and then boot. And I don't know how to sovle this problem. <br>
 
 ## What's New <br>
@@ -38,7 +38,7 @@
 * Shielded SD Card PCI path to save power.(maybe useful and maybe not) 
 
 ## Attention <br>
-* ~~**1.** I removed SMBIOS settings in config.plist. So you should change them to your own SMBIOS settings in EFI/OC/config.plist-PlatformInfo-Generic.~~ <br> 
+* **1.** I removed SMBIOS settings in config.plist. So you should change them to your own SMBIOS settings in EFI/OC/config.plist-PlatformInfo-Generic. <br> 
 * **2.** I have tested all EFIs in my repositorie, and they work well. If your laptop work badly or have caused some issues, I won't be responsible for them(I can't afford). <br>
 
 ## Kexts version <br>
