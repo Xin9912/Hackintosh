@@ -38,7 +38,7 @@
 * Shielded SD Card PCI path to save power.(maybe useful and maybe not) 
 
 ## Attention <br>
-* ~~~ **1.** I removed SMBIOS settings in config.plist. So you should change them to your own SMBIOS settings in EFI/OC/config.plist-PlatformInfo-Generic. <br> ~~~
+* ~~ **1.** I removed SMBIOS settings in config.plist. So you should change them to your own SMBIOS settings in EFI/OC/config.plist-PlatformInfo-Generic. <br> ~~
 * **2.** I have tested all EFIs in my repositorie, and they work well. If your laptop work badly or have caused some issues, I won't be responsible for them(I can't afford). <br>
 
 ## Kexts version <br>
