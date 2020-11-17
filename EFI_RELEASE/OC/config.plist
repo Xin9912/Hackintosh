@@ -1199,19 +1199,19 @@
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>MLB</key>
-			<string>C02932701QX0000AD</string>
+			<string></string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data>yXP+JJjn</data>
+			<data></data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
 			<string>MacBookPro14,3</string>
 			<key>SystemSerialNumber</key>
-			<string>C02X8TYEHTD5</string>
+			<string></string>
 			<key>SystemUUID</key>
-			<string>23836BA4-8110-4697-A40A-4A9B904CD2C7</string>
+			<string></string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
