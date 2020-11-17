@@ -4,7 +4,7 @@
 &emsp;
 
 ## Descriptions <br>
-* **Project:** It's EFI files to hackintosh for laptop Hasee Z7M-KP7GT. It may work well util macOS(Catalina)10.15.7. And if you have similar configurations to mine, you could try. And here is my laptop config: <br>
+* **Project:** It's EFI files to hackintosh for laptop Hasee Z7M-KP7GT. It may work well util macOS(Bigsur)11.0.1. And if you have similar configurations to mine, you could try. And here is my laptop config: <br>
   
 | Device | Model |
 | ---- | ---- |
@@ -23,6 +23,15 @@
 * **2.** The keyboard backlight setting can't work if shutdown your laptop and then boot. And I don't know how to solve this problem. <br>
 
 ## What's New <br>
+
+2020-11-17
+<br>
+* **1.** Updated OC0.6.3
+* **2.** Improved the power mangerment(less than 3% battery usage for 8 hours)
+* **3.** Updated kexts 
+* **4.** Supported Bigsur
+* **5.** Recomplied some ssdts
+-----
 2020-10-06
 <br>
 * **1.** Updated OC0.6.1
@@ -38,19 +47,19 @@
 * Shielded SD Card PCI path to save power.(maybe useful and maybe not) 
 
 ## Attention <br>
-* **1.** I removed SMBIOS settings in config.plist. So you should change them to your SMBIOS settings in EFI/OC/config.plist-PlatformInfo-Generic. <br> 
-* **2.** I have tested all EFIs in my repository, and they work well. If your laptop works badly or some issues caused , I won't be responsible for them(I can't afford). <br>
+* **1.** I removed SMBIOS settings in config.plist. So you should change them to your SMBIOS settings in EFI/OC/config.plist-PlatformInfo-Generic.(It may not work well on other OS if no those settings) <br> 
+* **2.** I have tested all EFIs in my repository, and they work well . If your laptop works badly or some issues caused , I won't be responsible for them(I can't afford). <br>
 
 ## Kexts version <br>
 
 | Name | Version |
 | :----: | :----: |
-| Lilu.kext| 1.4.7-RELEASE |
-| VirtualSMC.kext| 1.1.6-RELEASE |
-| WhateverGreen.kext | 1.4.2-RELEASE |
-| AppleALC.kext | 1.5.1-RELEASE |
-| AirportBrcmFixup.kext | 2.0.8-RELEASE |
+| Lilu.kext| 1.4.9-RELEASE |
+| VirtualSMC.kext| 1.1.8-RELEASE |
+| WhateverGreen.kext | 1.4.4-RELEASE |
+| AppleALC.kext | 1.5.4-RELEASE |
+| AirportBrcmFixup.kext | 2.1.1-RELEASE |
 | VoodooPS2Controller.kext | 2.1.6-RELEASE |
-| NoTouchID.kext | 1.0.3-RELEASE |
-| CPUFriend.kext | 1.2.1-RELEASE | 
-| RealtekRTL8111.kext | 2.2.2-RELEASE | <br>
+| NoTouchID.kext | 1.0.4-RELEASE |
+| CPUFriend.kext | 1.1.7-RELEASE | 
+~~ | RealtekRTL8111.kext | 2.2.2-RELEASE |~~<br>
