@@ -4,7 +4,7 @@
 &emsp;
 
 ## Descriptions <br>
-* **Project:** It's EFI files to hackintosh for laptop Hasee Z7M-KP7GT. It may work well util macOS(Bigsur)11.0.1. And if you have similar configurations to mine, you could try. And here is my laptop config: <br>
+* **Project:** It's EFI files to hackintosh for laptop Hasee Z7M-KP7GT. It may work well util macOS Bigsur(11.0.1). And if you have similar configurations to mine, you could try. And here is my laptop config: <br>
   
 | Device | Model |
 | ---- | ---- |
@@ -27,7 +27,7 @@
 2020-11-17
 <br>
 * **1.** Updated OC0.6.3
-* **2.** Improved the power mangerment(less than 3% battery usage for 8 hours)
+* **2.** Improved the power mangerment
 * **3.** Updated kexts 
 * **4.** Supported Bigsur
 * **5.** Recomplied some ssdts
@@ -49,6 +49,7 @@
 ## Attention <br>
 * **1.** I removed SMBIOS settings in config.plist. So you should change them to your SMBIOS settings in EFI/OC/config.plist-PlatformInfo-Generic.(It may not work well on other OS if no those settings) <br> 
 * **2.** I have tested all EFIs in my repository, and they work well . If your laptop works badly or some issues caused , I won't be responsible for them(I can't afford). <br>
+* **3.**If you need Other OS(macOS&win excluded),you may need change the Scanpolicy vaule in config.plist(only support macOS and win now).
 
 ## Kexts version <br>
 
@@ -62,4 +63,4 @@
 | VoodooPS2Controller.kext | 2.1.6-RELEASE |
 | NoTouchID.kext | 1.0.4-RELEASE |
 | CPUFriend.kext | 1.1.7-RELEASE | 
-~~ | RealtekRTL8111.kext | 2.2.2-RELEASE |~~<br>
+| ~~RealtekRTL8111.kext~~ | ~~2.2.2-RELEASE~~ | <br>
