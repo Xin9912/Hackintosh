@@ -3,7 +3,7 @@
 * [简体中文](https://github.com/Xin9912/Hackintosh/blob/master/README_cn.md)
 &emsp;
 ## 神舟战神Z7M-KP7GT的黑苹果EFI文件
-* 这是神舟战神Z7M-KP7GT的黑苹果安装文件。现在能够在macOS10.15.7(OC的EFI)下使用, 如果你有和我相近的配置你可以进行尝试, 配置内容如下:
+* 这是神舟战神Z7M-KP7GT的黑苹果安装文件。现在能够在macOS Bigsur(OC的EFI)下使用, 如果你有和我相近的配置你可以进行尝试, 配置内容如下:
 
 | 设备 | 型号 |
 | ---- | ---- |
@@ -22,6 +22,13 @@
 * **2.** 如果你的笔记本关机后再开机，在任意一个由本仓库EFI文件引导的系统你会发现，你上次的键盘背光设置已经被覆盖了。我不知道如何解决。 <br>
 
 ## 更新日志 <br>
+
+* **1.** 更新至OC0.6.3
+* **2.** 优化电源管理
+* **3.** 更新Kexts
+* **4.** 添加Bigsur支持
+* **5.** 重编译一些ssdts
+-----
 2020-10-06
 <br>
 * **1.** 更新至OC0.6.1
@@ -38,19 +45,20 @@
 
 
 ## 注意
-* **1.** 我已经移除了关于SMBIOS的设置，请根据个人情况在config.plist添加信息。你应该修改 EFI_RELEASE(DEBUG)/OC/config.plist-PlatformInfo-Generic 里的相关内容。<br>
+* **1.** 我已经移除了关于SMBIOS的设置，请根据个人情况在config.plist添加信息。你应该修改 EFI_RELEASE(DEBUG)/OC/config.plist-PlatformInfo-Generic里的相关内容。(如果不修改其他系统可能会有问题)<br>
 * **2.** 本仓库的文件都是经过自己的电脑测试的，但不免可能由于其他因素造成电脑的损伤，本人概不负责(也没有能力负责).
+* **3.** 如果你需要在电脑上使用其他操作系统(除macOS&win)，请在config.plist里修改Scanpolicy的值.
 
 ## Kexts驱动版本
 
 | 驱动名称 | 版本 |
 | :----: | :----: |
-| Lilu.kext| 1.4.7-RELEASE |
-| VirtualSMC.kext| 1.1.6-RELEASE |
-| WhateverGreen.kext | 1.4.2-RELEASE |
-| AppleALC.kext | 1.5.1-RELEASE |
-| AirportBrcmFixup.kext | 2.0.8-RELEASE |
+| Lilu.kext| 1.4.9-RELEASE |
+| VirtualSMC.kext| 1.1.8-RELEASE |
+| WhateverGreen.kext | 1.4.4-RELEASE |
+| AppleALC.kext | 1.5.4-RELEASE |
+| AirportBrcmFixup.kext | 2.1.1-RELEASE |
 | VoodooPS2Controller.kext | 2.1.6-RELEASE |
-| NoTouchID.kext | 1.0.3-RELEASE |
-| CPUFriend.kext | 1.2.1-RELEASE | 
-| RealtekRTL8111.kext | 2.2.2-RELEASE | <br>
+| NoTouchID.kext | 1.0.4-RELEASE |
+| CPUFriend.kext | 1.1.7-RELEASE | 
+| ~~RealtekRTL8111.kext~~ | ~~2.2.2-RELEASE~~ | <br>
