@@ -23,6 +23,8 @@
 * **2.** The keyboard backlight setting can't work if shutdown your laptop and then boot. And I don't know how to solve this problem. <br>
 
 ## What's New <br>
+2021-1-4
+<br>
 * **1.** Updated OC0.6.4
 * **2.** Simplified ssdts
 * **3.** Simplified&Updated kexts
