@@ -16,14 +16,18 @@
 | Audio | ALC269VC |
 | wireless card | Brcm943224 | <br>
 
-* **Files:** The project provides OC_RELEASE EFI(based on release ocpkg) ~~and OC_DEBUG(based on debug ocpkg)~~. If you use your laptop in daily work, you'd better choose the release version, if not you could use one at will. And Clover is placed in the git repositories-release, the version is 5112(work well at macOS 10.15.5, may not work well at 10.15.6 and newer macOS version).  <br>
+* **Files:** The project provides OC_RELEASE EFI(based on release ocpkg) and OC_DEBUG(based on debug ocpkg). If you use your laptop in daily work, you'd better choose the release version, if not you could use one at will. And Clover is placed in the git repositories-release, the version is 5112(work well at macOS 10.15.5, may not work well at 10.15.6 and newer macOS version).  <br>
 
 ## What's Wrong <br>
 * ~~**1.** The laptop OC version is newer than OC0.5.8 may wake later than using OC0.5.8 if you want to use it after it slept. I have tried some ways to solve the problem, but it has no use at all. And you can try your way.~~  <br>
 * **2.** The keyboard backlight setting can't work if shutdown your laptop and then boot. And I don't know how to solve this problem. <br>
 
 ## What's New <br>
-
+* **1.** Updated OC0.6.4
+* **2.** Simplified ssdts
+* **3.** Simplified&Updated kexts
+* **4.** Updated DEBUG version
+-----
 2020-11-17
 <br>
 * **1.** Updated OC0.6.3
@@ -55,12 +59,9 @@
 
 | Name | Version |
 | :----: | :----: |
-| Lilu.kext| 1.4.9-RELEASE |
-| VirtualSMC.kext| 1.1.8-RELEASE |
-| WhateverGreen.kext | 1.4.4-RELEASE |
-| AppleALC.kext | 1.5.4-RELEASE |
+| Lilu.kext| 1.5.0-RELEASE |
+| VirtualSMC.kext| 1.1.9-RELEASE |
+| WhateverGreen.kext | 1.4.5-RELEASE |
+| AppleALC.kext | 1.5.5-RELEASE |
 | AirportBrcmFixup.kext | 2.1.1-RELEASE |
-| VoodooPS2Controller.kext | 2.1.6-RELEASE |
-| NoTouchID.kext | 1.0.4-RELEASE |
-| CPUFriend.kext | 1.1.7-RELEASE | 
-| ~~RealtekRTL8111.kext~~ | ~~2.2.2-RELEASE~~ | <br>
+| VoodooPS2Controller.kext | 2.1.9-RELEASE |<br>
