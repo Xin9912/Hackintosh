@@ -4,7 +4,7 @@
 &emsp;
 
 ## Descriptions <br>
-* **Project:** It's EFI files to hackintosh for laptop Hasee Z7M-KP7GT. It may work well util macOS Bigsur(11.0.1). And if you have similar configurations to mine, you could try. And here is my laptop config: <br>
+* **Project:** It's EFI files to hackintosh for laptop Hasee Z7M-KP7GT. It may work well util macOS Bigsur(11.1.0). And if you have similar configurations to mine, you could try. And here is my laptop config: <br>
   
 | Device | Model |
 | ---- | ---- |
@@ -23,6 +23,12 @@
 * **2.** The keyboard backlight setting can't work if shutdown your laptop and then boot. And I don't know how to solve this problem. <br>
 
 ## What's New <br>
+2021-2-1
+<br>
+* **1.** Updated OC0.6.5
+* **2.** Changed SSDT-PNLF.aml to make display could be adjustable in OC0.6.5
+* **3.** Updated kexts
+-----
 2021-1-4
 <br>
 * **1.** Updated OC0.6.4
@@ -56,6 +62,7 @@
 * **1.** I removed SMBIOS settings in config.plist. So you should change them to your SMBIOS settings in EFI/OC/config.plist-PlatformInfo-Generic.(It may not work well on other OS if no those settings) <br> 
 * **2.** I have tested all EFIs in my repository, and they work well . If your laptop works badly or some issues caused , I won't be responsible for them(I can't afford). <br>
 * **3.** If you need Other OS(macOS&win excluded),you may need change the Scanpolicy vaule in config.plist(only support macOS and win now).
+* **4.** You should change the name of the folder(EFI_XXX) downloaded and decompressed to EFI to make it work.
 
 ## Kexts version <br>
 
@@ -64,6 +71,6 @@
 | Lilu.kext| 1.5.0-RELEASE |
 | VirtualSMC.kext| 1.1.9-RELEASE |
 | WhateverGreen.kext | 1.4.5-RELEASE |
-| AppleALC.kext | 1.5.5-RELEASE |
+| AppleALC.kext | 1.5.6-RELEASE |
 | AirportBrcmFixup.kext | 2.1.1-RELEASE |
-| VoodooPS2Controller.kext | 2.1.9-RELEASE |<br>
+| VoodooPS2Controller.kext | 2.2.0-RELEASE |<br>
