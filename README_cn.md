@@ -3,7 +3,7 @@
 * [简体中文](https://github.com/Xin9912/Hackintosh/blob/master/README_cn.md)
 &emsp;
 ## 神舟战神Z7M-KP7GT的黑苹果EFI文件
-* 这是神舟战神Z7M-KP7GT的黑苹果安装文件。现在能够在macOS Bigsur11.1.0(OC的EFI)下使用, 如果你有和我相近的配置你可以进行尝试, 配置内容如下:
+* 这是神舟战神Z7M-KP7GT的黑苹果安装文件。现在能够在macOS Bigsur11.2.1(OC的EFI)下使用, 如果你有和我相近的配置你可以进行尝试, 配置内容如下:
 
 | 设备 | 型号 |
 | ---- | ---- |
@@ -22,6 +22,11 @@
 * **2.** 如果你的笔记本关机后再开机，在任意一个由本仓库EFI文件引导的系统你会发现，你上次的键盘背光设置已经被覆盖了。我不知道如何解决。 <br>
 
 ## 更新日志 <br>
+2021-2-27
+<br>
+* **1.** 更新至OC0.6.6
+* **2.** 更新Kexts
+* **3.** 修改开机启动界面
 2021-2-1
 <br>
 * **1.** 更新至OC0.6.5
@@ -68,9 +73,9 @@
 
 | 驱动名称 | 版本 |
 | :----: | :----: |
-| Lilu.kext| 1.5.0-RELEASE |
-| VirtualSMC.kext| 1.1.9-RELEASE |
-| WhateverGreen.kext | 1.4.6-RELEASE |
-| AppleALC.kext | 1.5.6-RELEASE |
-| AirportBrcmFixup.kext | 2.1.1-RELEASE |
-| VoodooPS2Controller.kext | 2.2.0-RELEASE |<br>
+| Lilu.kext| 1.5.1-RELEASE |
+| VirtualSMC.kext| 1.2.0-RELEASE |
+| WhateverGreen.kext | 1.4.7-RELEASE |
+| AppleALC.kext | 1.5.7-RELEASE |
+| AirportBrcmFixup.kext | 2.1.2-RELEASE |
+| VoodooPS2Controller.kext | 2.2.1-RELEASE |<br>
