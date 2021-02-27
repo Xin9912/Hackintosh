@@ -28,6 +28,7 @@
 * **1.** Updated OC0.6.6
 * **2.** Updated Kexts
 * **3.** Modified boot theme
+-----
 2021-2-1
 <br>
 * **1.** Updated OC0.6.5
