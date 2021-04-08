@@ -4,7 +4,7 @@
 &emsp;
 
 ## Descriptions <br>
-* **Project:** It's EFI files to hackintosh for laptop Hasee Z7M-KP7GT. It may work well util macOS Bigsur(11.2.1). And if you have similar configurations to mine, you could try. And here is my laptop config: <br>
+* **Project:** It's EFI files to hackintosh for laptop Hasee Z7M-KP7GT. It may work well util macOS Bigsur(11.2.3). And if you have similar configurations to mine, you could try. And here is my laptop config: <br>
   
 | Device | Model |
 | ---- | ---- |
@@ -19,10 +19,14 @@
 * **Files:** The project provides OC_RELEASE EFI(based on release ocpkg) and OC_DEBUG(based on debug ocpkg). If you use your laptop in daily work, you'd better choose the release version, if not you could use one at will. And Clover is placed in the git repositories-release, the version is 5112(work well at macOS 10.15.5, may not work well at 10.15.6 and newer macOS version).  <br>
 
 ## What's Wrong <br>
-* ~~**1.** The laptop OC version is newer than OC0.5.8 may wake later than using OC0.5.8 if you want to use it after it slept. I have tried some ways to solve the problem, but it has no use at all. And you can try your way.~~  <br>
-* **2.** The keyboard backlight setting can't work if shutdown your laptop and then boot. And I don't know how to solve this problem. <br>
+* The keyboard backlight setting can't work if shutdown your laptop and then boot. And I don't know how to solve this problem. <br>
 
 ## What's New <br>
+2021-4-8
+<br>
+* **1.** Updated OC0.6.8
+* **2.** Updated Kexts
+-----
 2021-2-27
 <br>
 * **1.** Updated OC0.6.6
@@ -74,9 +78,10 @@
 
 | Name | Version |
 | :----: | :----: |
-| Lilu.kext| 1.5.1-RELEASE |
-| VirtualSMC.kext| 1.2.0-RELEASE |
-| WhateverGreen.kext | 1.4.7-RELEASE |
-| AppleALC.kext | 1.5.7-RELEASE |
+| Lilu.kext| 1.5.2-RELEASE |
+| VirtualSMC.kext| 1.2.2-RELEASE |
+| WhateverGreen.kext | 1.4.9-RELEASE |
+| AppleALC.kext | 1.5.9-RELEASE |
 | AirportBrcmFixup.kext | 2.1.2-RELEASE |
-| VoodooPS2Controller.kext | 2.2.1-RELEASE |<br>
+| VoodooPS2Controller.kext | 2.2.1-RELEASE |
+<br>
