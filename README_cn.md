@@ -21,6 +21,13 @@
 * 如果你的笔记本关机后再开机，在任意一个由本仓库EFI文件引导的系统你会发现，你上次的键盘背光设置已经被覆盖了。我不知道如何解决。 <br>
 
 ## 更新日志 <br>
+2021-5-11
+<br>
+* **1.** 更新至OC0.6.9
+* **2.** 添加dp输出(请在关机前介入dp第一口)
+* **3.** 更新Kexts
+* **4.** 添加x86的电源管理
+-----
 2021-4-8
 <br>
 * **1.** 更新至OC0.6.8
@@ -78,9 +85,11 @@
 
 | 驱动名称 | 版本 |
 | :----: | :----: |
-| Lilu.kext| 1.5.2-RELEASE |
-| VirtualSMC.kext| 1.2.2-RELEASE |
+| Lilu.kext| 1.5.3-RELEASE |
+| VirtualSMC.kext| 1.2.3-RELEASE |
 | WhateverGreen.kext | 1.4.9-RELEASE |
-| AppleALC.kext | 1.5.9-RELEASE |
+| AppleALC.kext | 1.6.0-RELEASE |
 | AirportBrcmFixup.kext | 2.1.2-RELEASE |
-| VoodooPS2Controller.kext | 2.2.1-RELEASE |<br>
+| VoodooPS2Controller.kext | 1.9.2-RELEASE |
+| RealtekRTL8111.kext   | 2.4.2-RELEASE |
+<br>

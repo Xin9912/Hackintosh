@@ -22,6 +22,13 @@
 * The keyboard backlight setting can't work if shutdown your laptop and then boot. And I don't know how to solve this problem. <br>
 
 ## What's New <br>
+2021-5-11
+<br>
+* **1.** Updated OC0.6.9
+* **2.** Supported dp output(please access dp connection before start)
+* **3.** Updated Kexts
+* **4.** Added x86 power management
+-----
 2021-4-8
 <br>
 * **1.** Updated OC0.6.8
@@ -78,10 +85,11 @@
 
 | Name | Version |
 | :----: | :----: |
-| Lilu.kext| 1.5.2-RELEASE |
-| VirtualSMC.kext| 1.2.2-RELEASE |
+| Lilu.kext| 1.5.3-RELEASE |
+| VirtualSMC.kext| 1.2.3-RELEASE |
 | WhateverGreen.kext | 1.4.9-RELEASE |
-| AppleALC.kext | 1.5.9-RELEASE |
+| AppleALC.kext | 1.6.0-RELEASE |
 | AirportBrcmFixup.kext | 2.1.2-RELEASE |
-| VoodooPS2Controller.kext | 2.2.1-RELEASE |
+| VoodooPS2Controller.kext | 1.9.2-RELEASE |
+| RealtekRTL8111.kext   | 2.4.2-RELEASE |
 <br>
