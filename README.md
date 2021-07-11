@@ -4,7 +4,7 @@
 &emsp;
 
 ## Descriptions <br>
-* **Project:** It's EFI files to hackintosh for laptop Hasee Z7M-KP7GT. It may work well util macOS Bigsur(11.2.3). And if you have similar configurations to mine, you could try. And here is my laptop config: <br>
+* **Project:** It's EFI files to hackintosh for laptop Hasee Z7M-KP7GT. It may work well util macOS Bigsur(11.4). And if you have similar configurations to mine, you could try. And here is my laptop config: <br>
   
 | Device | Model |
 | ---- | ---- |
@@ -22,6 +22,11 @@
 * The keyboard backlight setting can't work if shutdown your laptop and then boot. And I don't know how to solve this problem. <br>
 
 ## What's New <br>
+2021-7-11
+<br>
+* **1.** Updated OC0.7.1
+* **2.** Updated Kexts
+-----
 2021-5-11
 <br>
 * **1.** Updated OC0.6.9
@@ -85,11 +90,11 @@
 
 | Name | Version |
 | :----: | :----: |
-| Lilu.kext| 1.5.3-RELEASE |
-| VirtualSMC.kext| 1.2.3-RELEASE |
-| WhateverGreen.kext | 1.4.9-RELEASE |
-| AppleALC.kext | 1.6.0-RELEASE |
-| AirportBrcmFixup.kext | 2.1.2-RELEASE |
-| VoodooPS2Controller.kext | 1.9.2-RELEASE |
+| Lilu.kext| 1.5.4-RELEASE |
+| VirtualSMC.kext| 1.2.5-RELEASE |
+| WhateverGreen.kext | 1.5.1-RELEASE |
+| AppleALC.kext | 1.6.2-RELEASE |
+| AirportBrcmFixup.kext | 2.1.3-RELEASE |
+| VoodooPS2Controller.kext | 2.2.4-RELEASE |
 | RealtekRTL8111.kext   | 2.4.2-RELEASE |
 <br>
